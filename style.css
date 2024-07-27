@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+
+}
+
+
+
+svg{
+    height: 200px;
+    margin-left: 100px;
+    fill: transparent;
+}
+.myContainer{
+    margin-top: 50px;
+    height: 700px;
+    max-width: 1200px;
+    margin-left: 350px;
+    background-image: url(images/pexels-rohit-gangwar-904269.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* border: 5px solid palevioletred; */
+}
+.firstText{
+    text-align: center;
+    margin-left: -150px;
+    color: white;
+    font-size: 50px;
+    transform: translateY(30px);
+    
+}
+
+#searchCity{
+    padding: 5px;
+    height: 50px;
+    width: 550px;
+    margin-left: 250px;
+    margin-top: 50px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgba(64, 2, 34, 0.5);
+    background-color: transparent;
+    color: white;
+    
+    
+}
+
+#searchCity::placeholder{
+    color: white;
+    font-size: 20px;
+}
+
+#searchBtn{
+    height: 50px;
+    background-color: rgba(64, 2, 34, 0.5);
+    color: white;
+    width: 100px;
+    border: none;
+    border-radius: 20px;
+}
+
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    background-color: rgba(64, 2, 34, 0.5);
+    max-width: 1050px;
+    height: 230px;
+    margin-top: 70px;
+    
+}
+
+.city{
+    margin-left: 50px;
+    height: 100px;
+    width: 250px;
+    color: white;
+    margin-top: 200px;
+    font-size: 40px;
+    margin-bottom: -60px;
+    /* background-color: white; */
+}
+
+.card1{
+    margin-left: 50px;
+    height: 100px;
+    width: 150px;
+    /* background-color: white; */
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 120px;
+    color: lightskyblue;
+}
+
+
+.card2{
+    margin-left: 150px;
+    height: 100px;
+    width: 150px;
+    /* background-color: white; */
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 40px;
+    color: white;
+}
+
+.card3{
+    margin-left: 50px;
+    height: 100px;
+    width: 150px;
+    /* background-color: white; */
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 40px;
+    color: white;
+}
+
+.card4{
+    margin-left: 50px;
+    height: 100px;
+    width: 150px;
+    /* background-color: white; */
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 40px;
+    color: white;
+}
+
+.humImg{
+    background-image: url(images/humidity.svg);
+    background-size: contain;
+    height: 100px;
+    background-color: blue;
+}
+
+svg{
+    height: 50px;
+    width: 100px;
+    fill: white;
+    margin-left: -20px;
+    margin-top: 20px;
+    
+}
